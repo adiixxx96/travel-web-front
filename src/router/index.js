@@ -40,6 +40,11 @@ const routes = [
         name: 'User Area',
         component: () => import( '../views/User/UserArea.vue')
     },
+    {
+        path: '/admin',
+        name: 'Admin Area',
+        component: () => import( '../views/User/AdminArea.vue')
+    },
 ]    
 
 const router = new VueRouter({

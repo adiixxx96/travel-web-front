@@ -20,6 +20,8 @@ export default {
   },
   created() {
     this.$store.dispatch('listTrips')
+    this.$store.dispatch('listAllBookings')
+    this.$store.dispatch('listAllUsers')
   },
 };
 </script>

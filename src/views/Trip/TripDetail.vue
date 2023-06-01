@@ -75,7 +75,7 @@ export default {
         userId: idUser, 
         tripId: idTrip,
        };
-      this.$store.dispatch('bookTrip', {  idUser, idTrip, booking })
+      this.$store.dispatch('bookTrip', { idUser, idTrip, booking })
     }
   },
   created() {
