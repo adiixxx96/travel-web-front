@@ -47,7 +47,8 @@ export default new Vuex.Store({
         },
         logout(state) {
             state.user=null;
-            state.userBookings={}
+            state.userBookings={};
+            state.isAdmin=0;
         },
         getUserId(state) {
             var userId = state.user.userId
